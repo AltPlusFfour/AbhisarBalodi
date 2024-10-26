@@ -1,0 +1,696 @@
+
+.Bg{
+
+    width: 100%;
+    height: 100%;
+    /* control ize */
+    --u: 20px;
+    --c1: #ededee;
+    --c2: #000000;
+    --c3: #1e1e1e;
+    --gp: 50% / calc(var(--u) * 16.9) calc(var(--u) * 12.8);
+    background: conic-gradient(
+          from 122deg at 50% 85.15%,
+          var(--c2) 0 58deg,
+          var(--c3) 0 116deg,
+          #fff0 0 100%
+        )
+        var(--gp),
+      conic-gradient(from 122deg at 50% 72.5%, var(--c1) 0 116deg, #fff0 0 100%)
+        var(--gp),
+      conic-gradient(from 58deg at 82.85% 50%, var(--c3) 0 64deg, #fff0 0 100%)
+        var(--gp),
+      conic-gradient(
+          from 58deg at 66.87% 50%,
+          var(--c1) 0 64deg,
+          var(--c2) 0 130deg,
+          #fff0 0 100%
+        )
+        var(--gp),
+      conic-gradient(from 238deg at 17.15% 50%, var(--c2) 0 64deg, #fff0 0 100%)
+        var(--gp),
+      conic-gradient(
+          from 172deg at 33.13% 50%,
+          var(--c3) 0 66deg,
+          var(--c1) 0 130deg,
+          #fff0 0 100%
+        )
+        var(--gp),
+      linear-gradient(98deg, var(--c3) 0 15%, #fff0 calc(15% + 1px) 100%)
+        var(--gp),
+      linear-gradient(-98deg, var(--c2) 0 15%, #fff0 calc(15% + 1px) 100%)
+        var(--gp),
+      conic-gradient(
+          from -58deg at 50.25% 14.85%,
+          var(--c3) 0 58deg,
+          var(--c2) 0 116deg,
+          #fff0 0 100%
+        )
+        var(--gp),
+      conic-gradient(from -58deg at 50% 28.125%, var(--c1) 0 116deg, #fff0 0 100%)
+        var(--gp),
+      linear-gradient(90deg, var(--c2) 0 50%, var(--c3) 0 100%) var(--gp);
+  }
+  
+.Welcome{
+    background-color: rgb(255,255,255);
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    font-size: 90px;
+    font-family:  "Prociono", serif;; 
+}
+
+.welcomeText{
+    background-color: rgb(255,255,255);
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 25%;
+    font-size: 20px;
+    font-family:  "Prociono", serif;; 
+}
+
+.AboutMe{
+    background-color: rgb(255,255,255);
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 90px;
+    font-family:  "Prociono", serif;
+}
+
+.intro {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    font-family: "Prociono", serif;
+    text-align: left;
+    width: 450px;
+    font-size: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+
+.Abhisar{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.headings{
+  background-color: rgb(255,255,255);
+  display: inline-block;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 90px;
+  font-family:  "Prociono", serif;
+}
+
+.headings2{
+  background-color: rgb(255,255,255);
+  display: inline-block;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 50px;
+  font-family:  "Prociono", serif;
+}
+
+
+/* From Uiverse.io by gharsh11032000 */ 
+.Proj {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background: linear-gradient(-45deg, #202020 0%, #bbbbbb   100% );
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.Proj svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.Proj:hover {
+  transform: rotate(-5deg) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.Proj:hover .card__content {
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 1;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #d9d9d9;
+  font-weight: 700;
+  font-family:  "Prociono", serif;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 1.4;
+  font-family:  "Prociono", serif;
+}
+
+.Proj:hover svg {
+  scale: 0;
+  transform: rotate(-45deg);
+}
+
+.ProjCards{
+  display: inline-block;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%; 
+
+}
+
+
+.btn-31,
+.btn-31 *,
+.btn-31 :after,
+.btn-31 :before,
+.btn-31:after,
+.btn-31:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-31 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+.btn-31:disabled {
+  cursor: default;
+}
+
+.btn-31:-moz-focusring {
+  outline: auto;
+}
+
+.btn-31 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-31 [hidden] {
+  display: none;
+}
+
+.btn-31 {
+  border-width: 1px;
+  padding: 1rem 2rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-31:before {
+  --progress: 100%;
+  background: #fff;
+  -webkit-clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
+}
+
+.btn-31:hover:before {
+  --progress: 0%;
+}
+
+.btn-31 .text-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-31 .text {
+  display: block;
+  font-weight: 900;
+  mix-blend-mode: difference;
+  position: relative;
+  color: white;
+}
+
+.btn-31:hover .text {
+  -webkit-animation: move-up-alternate 0.3s ease forwards;
+  animation: move-up-alternate 0.3s ease forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.Sub-button{
+  background-color: white(200, 0, 0);
+  border: none;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-radius: 100px;
+  font-weight: 520;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px black;
+  transition: background-color 0.25s, box-shadow 0.25s, color 0.25s;
+}
+
+.Sub-button:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 5px 5px 0px white;
+}
+
+.Sub-button:active{
+  background-color: white;
+  color:  black;
+  box-shadow: 5px 5px 0px black;
+}
+
+/* From Uiverse.io by amirhoseinman2019 */ 
+.main_back {
+  position: absolute;
+  border-radius: 10px;
+  transform: rotate(90deg);
+  width: 11em;
+  height: 11em;
+  background: linear-gradient(270deg, #03a9f4, #cc39a4, #ffb5d2);
+  z-index: -2;
+  box-shadow: inset 0px 0px 180px 5px #ffffff;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 14em;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.card {
+  width: 60px;
+  height: 60px;
+  border-top-left-radius: 10px;
+  background: lightgrey;
+  transition: .4s ease-in-out, .2s background-color ease-in-out, .2s background-image ease-in-out;
+  background: rgba(255, 255, 255, 0.596);
+  backdrop-filter: blur(5px);
+  border: 1px solid transparent;
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .instagram {
+  opacity: 0;
+  transition: .2s ease-in-out;
+  fill: #cc39a4;
+}
+
+.card:nth-child(2) {
+  border-radius: 0px;
+}
+
+.card:nth-child(2) .twitter {
+  opacity: 0;
+  transition: .2s ease-in-out;
+  fill: #03A9F4;
+}
+
+.card:nth-child(3) {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+.card:nth-child(3) .dribble {
+  opacity: 0;
+  transition: .2s ease-in-out;
+  fill: #ffb5d2;
+}
+
+.card:nth-child(4) {
+  border-radius: 0px;
+}
+
+.card:nth-child(4) .codepen {
+  opacity: 0;
+  transition: .2s ease-in-out;
+  fill: black;
+}
+
+.card:nth-child(5) {
+  border-radius: 0px;
+}
+
+.card:nth-child(5) .uiverse {
+  position: absolute;
+  margin-left: 0.2em;
+  margin-top: 0.2em;
+  opacity: 0;
+  transition: .2s ease-in-out;
+}
+
+.card:nth-child(6) {
+  border-radius: 0px;
+}
+
+.card:nth-child(6) .discord {
+  opacity: 0;
+  transition: .2s ease-in-out;
+  fill: #8c9eff;
+}
+
+.card:nth-child(7) {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+.card:nth-child(7) .github {
+  opacity: 0;
+  transition: .2s ease-in-out;
+  fill: black;
+}
+
+.card:nth-child(8) {
+  border-radius: 0px;
+}
+
+.card:nth-child(8) .telegram {
+  opacity: 0;
+  transition: .2s ease-in-out;
+  fill: #29b6f6;
+}
+
+.card:nth-child(9) {
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+.card:nth-child(9) .reddit {
+  opacity: 0;
+  transition: .2s ease-in-out;
+}
+
+.main:hover {
+  width: 14em;
+  cursor: pointer;
+}
+
+.main:hover .main_back {
+  opacity: 0;
+}
+
+.main:hover .card {
+  margin: .2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.main:hover .card:nth-child(5) {
+  border: transparent;
+}
+
+.main:hover .text {
+  opacity: 0;
+  z-index: -3;
+}
+
+.main:hover .instagram {
+  opacity: 1;
+}
+
+.main:hover .twitter {
+  opacity: 1;
+}
+
+.main:hover .dribble {
+  opacity: 1;
+}
+
+.main:hover .codepen {
+  opacity: 1;
+}
+
+.main:hover .uiverse {
+  opacity: 1;
+}
+
+.main:hover .discord {
+  opacity: 1;
+}
+
+.main:hover .github {
+  opacity: 1;
+}
+
+.main:hover .telegram {
+  opacity: 1;
+}
+
+.main:hover .reddit {
+  opacity: 1;
+}
+
+.card:nth-child(1):hover {
+  background-color: #cc39a4;
+}
+
+.card:nth-child(1):hover .instagram {
+  fill: white;
+}
+
+.card:nth-child(2):hover {
+  background-color: #03A9F4;
+}
+
+.card:nth-child(2):hover .twitter {
+  fill: white;
+}
+
+.card:nth-child(3):hover {
+  background-color: #ffb5d2;
+}
+
+.card:nth-child(3):hover .dribble {
+  fill: white;
+}
+
+.card:nth-child(4):hover {
+  background-color: #1E1F26;
+}
+
+.card:nth-child(4):hover .codepen {
+  fill: white;
+}
+
+.card:nth-child(5):hover {
+  animation: backgroundIMG .1s;
+  animation-fill-mode: forwards;
+}
+
+.card:nth-child(5):hover .uiverse #paint0_linear_501_142 stop {
+  stop-color: white;
+}
+
+.card:nth-child(5):hover .uiverse #paint1_linear_501_142 stop {
+  stop-color: white;
+}
+
+.card:nth-child(5):hover .uiverse #paint2_linear_501_142 stop {
+  stop-color: white;
+}
+
+@keyframes backgroundIMG {
+  100% {
+    background-image: linear-gradient(#BF66FF,#6248FF,#00DDEB);
+  }
+}
+
+.card:nth-child(6):hover {
+  background-color: #8c9eff;
+}
+
+.card:nth-child(6):hover .discord {
+  fill: white;
+}
+
+.card:nth-child(7):hover {
+  background-color: black;
+}
+
+.card:nth-child(7):hover .github {
+  fill: white;
+}
+
+.card:nth-child(8):hover {
+  background-color: #29b6f6;
+}
+
+.card:nth-child(8):hover .telegram > path:nth-of-type(1) {
+  fill: white;
+}
+
+.card:nth-child(8):hover .telegram > path:nth-of-type(2) {
+  fill: #29b6f6;
+}
+
+.card:nth-child(8):hover .telegram > path:nth-of-type(3) {
+  fill: #29b6f6;
+}
+
+.card:nth-child(9):hover {
+  background-color: rgb(255,69,0);
+}
+
+.card:nth-child(9) .reddit > g circle {
+  fill: rgb(255,69,0);
+}
+
+.card:nth-child(9) .reddit > g path {
+  fill: white;
+}
+
+.text {
+  position: absolute;
+  font-size: 15px;
+  transition: .4s ease-in-out;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.33em;
+  z-index: 3;
+  font-family: Arial, Helvetica, sans-serif;
+}
